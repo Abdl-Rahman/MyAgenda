@@ -1,4 +1,5 @@
 import React from "react";
+import "./AboutPages.css";
 
 function AboutPage({ t, language }) {
   return (

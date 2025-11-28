@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 
 function Footer({ t, language }) {
   const developerName = "Abdulrahman Sabha";

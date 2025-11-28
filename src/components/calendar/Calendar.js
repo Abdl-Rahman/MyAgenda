@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./calendar.css";
 
 function getMonthInfo(date) {
   const year = date.getFullYear();

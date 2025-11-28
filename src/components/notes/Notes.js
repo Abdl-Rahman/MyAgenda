@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Notes.css";
 
 function Notes({ t, language, notes, onAddNote, onDeleteNote }) {
   const [text, setText] = useState("");

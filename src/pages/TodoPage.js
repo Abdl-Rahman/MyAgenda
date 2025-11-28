@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TodoForm from "../components/todo/TodoForm";
 import TodoList from "../components/todo/TodoList";
+import "./TodoPages.css";
 
 function TodoPage({
   t,
