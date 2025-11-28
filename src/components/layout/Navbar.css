@@ -6,6 +6,7 @@
   border-radius: 12px;
   background: #f9fafb;
   border: 1px solid #e5e7eb;
+  /* margin-left: 120px; */
 }
 
 .nav-title {
@@ -27,4 +28,11 @@
 body.dark-mode .navbar {
   background: #0f172a;
   border-color: #1f2937;
+}
+
+.app-main {
+  margin-left: 120px;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
 }

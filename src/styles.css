@@ -15,12 +15,14 @@ body.dark-mode {
 }
 
 .app-container {
-  max-width: 1000px;
-  margin: 40px auto;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0;
   background: #ffffff;
-  padding: 24px 20px 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  padding: 0;
+  border-radius: 0;
+  /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05); */
 }
 
 body.dark-mode .app-container {
@@ -30,7 +32,7 @@ body.dark-mode .app-container {
 
 /* Layout: sidebar + main */
 .app-shell {
-  display: flex;
+  display: block;
   gap: 16px;
   margin-top: 10px;
 }
@@ -44,10 +46,11 @@ body.dark-mode .app-container {
 }
 
 .app-main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  margin-left: 90px;
+  padding: 20px;
+  padding-bottom: 70px;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 /* Buttons */

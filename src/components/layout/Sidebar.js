@@ -54,17 +54,18 @@ function Sidebar({ t, language, view, onChangeView }) {
           <span className="sidebar-icon">📅</span>
           <span className="sidebar-label">{t.navCalendar}</span>
         </button>
-
-        <button
-          className={
-            view === "about" ? "sidebar-item sidebar-item-active" : "sidebar-item"
-          }
-          onClick={() => onChangeView("about")}
-          title={t.navAbout}
-        >
-          <span className="sidebar-icon">ℹ️</span>
-          <span className="sidebar-label">{t.navAbout}</span>
-        </button>
+        <div className="sidebar-bottom">  
+          <button
+            className={
+              view === "about" ? "sidebar-item sidebar-item-active" : "sidebar-item"
+            }
+            onClick={() => onChangeView("about")}
+            title={t.navAbout}
+          >
+            <span className="sidebar-icon">ℹ️</span>
+            <span className="sidebar-label">{t.navAbout}</span>
+          </button>
+        </div>
       </div>
     </div>
   );

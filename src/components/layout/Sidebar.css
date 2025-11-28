@@ -1,12 +1,18 @@
 .sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 90px;
-  background: #111827;
+  height: 100vh;
+  background: #3d79fb;
   color: #f9fafb;
   border-radius: 16px;
   padding: 10px 8px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  border-radius: 0;
+  z-index: 1000;
 }
 
 .sidebar-top {
@@ -60,4 +66,12 @@
 
 body.dark-mode .sidebar {
   background: #020617;
+}
+
+.sidebar-bottom {
+  margin-top: auto;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
